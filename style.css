@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(129, 162, 233);
+}
+
+h1 {
+text-align: center;
+font-size: 40px;
+}
+
+h2{font-size: 25px;
+color: indigo;}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexbox-item {
+    width: 350px;
+    height: 400px;
+}
+a {
+    display: block;
+    text-decoration: none;}
+.one {
+    flex-shrink: 0;
+    flex-grow: 2;
+    border: red 2px solid;
+}
+
+.two {flex-grow: 2;
+flex-shrink: 1;
+border: red 2px solid;
+}
+
+
+.three {
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: red 2px solid;
+}
+
+.c2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center space-between;
+    flex-direction: row-reverse;
+}
+
+.four, .five, .six {border: red 2px solid;}
