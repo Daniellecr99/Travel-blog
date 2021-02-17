@@ -1,5 +1,6 @@
 body {
     background-color: rgb(129, 162, 233);
+    margin-left: 30px;
 }
 
 h1 {
@@ -26,19 +27,21 @@ a {
 .one {
     flex-shrink: 0;
     flex-grow: 2;
-    border: red 2px solid;
+    
 }
 
 .two {flex-grow: 2;
 flex-shrink: 1;
-border: red 2px solid;
+
 }
+
+.eight {align-self: flex-end;}
 
 
 .three {
     flex-shrink: 0;
     flex-grow: 0;
-    border: red 2px solid;
+   
 }
 
 .c2 {
@@ -49,4 +52,12 @@ border: red 2px solid;
     flex-direction: row-reverse;
 }
 
-.four, .five, .six {border: red 2px solid;}
+.four, .five, .six {
+flex-shrink: 2;}
+
+.c3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-end;
+}
