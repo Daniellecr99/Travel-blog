@@ -35,7 +35,7 @@ flex-shrink: 1;
 
 }
 
-.eight {align-self: flex-end;}
+.eight {align-self:baseline}
 
 
 .three {
