@@ -1,0 +1,32 @@
+h1, h2 {text-align: center;}
+
+.blue {color: blue;}
+.red {color:red}
+.green {color: green;}
+
+.small {font-size: 8px;}
+.big {font-size: 20px;}
+
+.center {text-align:right;}
+
+.bold {font-weight:bold;
+font-style:italic;}
+
+.text {font-family:Impact;}
+
+.BOB {color: orange; font-weight:; font-size: 20px;} 
+
+.list {list-style-type: lower-greek;}
+
+.list :hover {color: paleturquoise;}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    width:950px;
+    height:200px;
+    flex-direction: row;
+    justify-content: space-between;}
+
+#styledImage {border: purple 10px ridge;
+border-radius: 30px;}
