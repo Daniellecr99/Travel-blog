@@ -38,9 +38,9 @@ font-size: 30px;}
 
 .two, .three, .five, .seven {border: slateblue 8px groove; background-color: seashell;}
 
-.eight, .six, .one {width: 400px;}
+.eight, .six, .one {width: 400px; flex-shrink: 1;}
 
- .five, .seven {width: 280px;}
+ .five, .seven {width: 280px; flex-grow: 2;}
 
 .two {width:400px;}
 
